@@ -1,0 +1,2 @@
+for accelorometer graph
+https://androidstream.wordpress.com/2013/01/16/android-collecting-and-plotting-accelerometer-data/

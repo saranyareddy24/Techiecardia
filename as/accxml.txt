@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools" 
+     android:layout_width="match_parent"
+      android:layout_height="match_parent" 
+      tools:context=".MySensorActivity"
+       android:background="#F0FFFF">
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/textView2"
+          android:layout_below="@+id/acz"
+          android:layout_marginRight="22dp"
+          android:text="GYROSCOPE READINGS"
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="47dp"
+          android:text="ACCELEROMETER READINGS"
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <TextView
+          android:id="@+id/gyx"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/textView2"
+          android:layout_centerVertical="true"
+          android:text="Gyroscope Readings x axis" />
+
+      <TextView
+          android:id="@+id/gyy"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/gyx"
+          android:layout_below="@+id/gyx"
+          android:layout_marginTop="14dp"
+          android:text="Gyroscope Readings y axis" />
+
+      <TextView
+          android:id="@+id/gyz"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/gyy"
+          android:layout_below="@+id/gyy"
+          android:layout_marginTop="21dp"
+          android:text="Gyroscope Readings z axis" />
+
+      <TextView
+          android:id="@+id/accx"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/textView2"
+          android:layout_below="@+id/textView2"
+          android:layout_marginTop="15dp"
+          android:text="X-AXIS"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+
+      <TextView
+          android:id="@+id/accy"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/accx"
+          android:layout_below="@+id/accx"
+          android:layout_marginTop="18dp"
+          android:text="Y-AXIS"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+
+      <TextView
+          android:id="@+id/acz"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/accy"
+          android:layout_below="@+id/accy"
+          android:layout_marginTop="14dp"
+          android:text="Z-AXIS"
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+         
+     </RelativeLayout>
